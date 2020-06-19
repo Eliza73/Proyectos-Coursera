@@ -1,9 +1,137 @@
 /******************CSS para proyecto 1 de Coursera**********/
 /*********************    Menu      ************************/
-<style>
 
-body {
-	background-color: gray;
+*{
+	box-sizing: border-box;
 }
 
-</style>
+
+body {
+	font-family: Helvetica;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: 50px;
+}
+
+#box1 {
+  background-color: #DEB887;
+  border: 2px solid black;
+  margin: 10px;
+  }
+
+/*#box2 {
+  background-color: #DEB887;
+  border: 2px solid black;
+  margin: 10px
+ }
+
+#box3 {
+  background-color: #00FFFF;
+  border: 2px solid black;
+  margin: 10px
+
+}*/
+
+#t1{
+	background-color: #F7FE2E;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	float: right;
+	text-align: center;
+	width: 100px;
+}
+#t2{
+	background-color: cyan;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	float: right;
+	text-align: center;
+	width: 100px;
+}
+
+#t3{
+	background-color: #FE2EF7;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	float: right;
+	text-align: center;
+	width: 100px;
+}
+
+p{
+	clear: both;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/********** Media para Large devices ****************/
+/*@media (min-width: 992px) {
+	div {
+		border: 2px solid black;
+		width: 33.33%;
+	}
+}
+
+/********** Media para Medium devices ****************/
+
+/*@media (min-width: 768px) and (max-width: 991px) {
+	div {
+		border: 2px solid black;
+		width: 50%;
+	}
+}
+
+/********** Media para Small devices ****************/
+
+/*@media (max-width: 767px) {
+	div {
+		border: 2px solid black;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+
+
+/***************    @MEDIA segundo intento    ***************/
+
+.row {
+	width: 100%;
+}
+
+/********** Media para Large devices ****************/
+@media (min-width: 992px) {
+	.lg-3col {
+		float: left;
+		width: 33.33%;
+	}
+}
+
+
+/********** Media para Medium devices ****************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.md-2col {
+		float: left;
+		width: 50%;
+	}
+	.md-1col {
+		float: left;
+		width: 100%;
+	}
+}
+
+/********** Media para Small devices ****************/
+
+@media (max-width: 767px) {
+	.sm-1col {
+		float: left;	
+		width: 100%;		
+	}
+}
+
+
