@@ -3,6 +3,8 @@
 
 *{
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -14,27 +16,15 @@ body {
 h1 {
 	text-align: center;
 	font-size: 4em;
-	margin-bottom: 50px;
+	margin-bottom: 5px;
 }
 
 #box1 {
   background-color: #DEB887;
   border: 2px solid black;
+  top: 100px;
   margin: 10px;
   }
-
-/*#box2 {
-  background-color: #DEB887;
-  border: 2px solid black;
-  margin: 10px
- }
-
-#box3 {
-  background-color: #00FFFF;
-  border: 2px solid black;
-  margin: 10px
-
-}*/
 
 #t1{
 	background-color: #F7FE2E;
@@ -44,6 +34,7 @@ h1 {
 	text-align: center;
 	width: 100px;
 }
+
 #t2{
 	background-color: cyan;
 	border-left: 2px solid black;
@@ -62,42 +53,16 @@ h1 {
 	width: 100px;
 }
 
-p{
+#p1{
 	clear: both;
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-}
-
-/********** Media para Large devices ****************/
-/*@media (min-width: 992px) {
-	div {
-		border: 2px solid black;
-		width: 33.33%;
-	}
-}
-
-/********** Media para Medium devices ****************/
-
-/*@media (min-width: 768px) and (max-width: 991px) {
-	div {
-		border: 2px solid black;
-		width: 50%;
-	}
-}
-
-/********** Media para Small devices ****************/
-
-/*@media (max-width: 767px) {
-	div {
-		border: 2px solid black;
-		width: 100%;
-		margin-bottom: 30px;
-	}
+	
 }
 
 
-/***************    @MEDIA segundo intento    ***************/
+/***************    @MEDIA    ***************/
 
 .row {
 	width: 100%;
